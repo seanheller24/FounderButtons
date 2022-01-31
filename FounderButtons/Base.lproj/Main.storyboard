@@ -16,17 +16,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0S8-B4-UTS">
-                                <rect key="frame" x="115" y="153" width="142" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0S8-B4-UTS">
+                                <rect key="frame" x="20" y="60" width="335" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="ua7-si-A6p"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <color key="textColor" red="0.85882353779999998" green="0.78823530669999997" blue="0.61960786580000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyG-zH-ZIV">
-                                <rect key="frame" x="85" y="315" width="206" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyG-zH-ZIV">
+                                <rect key="frame" x="85" y="315" width="206" height="31"/>
                                 <color key="backgroundColor" red="0.4941176176" green="0.1215686351" blue="0.090196087960000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="206" id="R4F-PZ-G7I"/>
+                                    <constraint firstAttribute="height" constant="31" id="bWf-hc-8zQ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Who Founded Google?">
@@ -36,10 +41,13 @@
                                     <action selector="googleButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7x3-2h-Vt0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlG-GF-bvH">
-                                <rect key="frame" x="69" y="406" width="235" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlG-GF-bvH">
+                                <rect key="frame" x="70" y="383" width="235" height="31"/>
                                 <color key="backgroundColor" red="0.4941176176" green="0.1215686351" blue="0.090196087960000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="235" id="Eyk-r5-P6u"/>
+                                    <constraint firstAttribute="height" constant="31" id="VkO-KZ-dPi"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Who Founded Rent the Runway?">
@@ -49,17 +57,13 @@
                                     <action selector="rtrButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C7F-Gr-SNt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1v6-Jh-Ya9">
-                                <rect key="frame" x="115" y="55" width="142" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                <color key="textColor" red="0.4941176176" green="0.1215686351" blue="0.090196087960000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4l-Kw-YPg">
-                                <rect key="frame" x="149" y="546" width="74" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4l-Kw-YPg">
+                                <rect key="frame" x="151" y="499" width="74" height="31"/>
                                 <color key="backgroundColor" red="0.4941176176" green="0.1215686351" blue="0.090196087960000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="74" id="Qmn-ds-2UX"/>
+                                    <constraint firstAttribute="height" constant="31" id="RU2-YM-R2T"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Clear">
@@ -69,9 +73,32 @@
                                     <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g9o-Z8-Xit"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1v6-Jh-Ya9">
+                                <rect key="frame" x="20" y="15" width="335" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="gni-7S-i5p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" red="0.4941176176" green="0.1215686351" blue="0.090196087960000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1v6-Jh-Ya9" secondAttribute="trailing" constant="20" id="1Ls-Eb-wGw"/>
+                            <constraint firstItem="1v6-Jh-Ya9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="248-Aq-W9u"/>
+                            <constraint firstItem="1v6-Jh-Ya9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="54a-pg-u4J"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0S8-B4-UTS" secondAttribute="trailing" constant="20" id="7PN-jY-RRb"/>
+                            <constraint firstItem="xyG-zH-ZIV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7ac-ix-SP4"/>
+                            <constraint firstItem="h4l-Kw-YPg" firstAttribute="top" secondItem="tlG-GF-bvH" secondAttribute="bottom" constant="85" id="cqj-yH-4pv"/>
+                            <constraint firstItem="0S8-B4-UTS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="eqg-ij-Q8U"/>
+                            <constraint firstItem="tlG-GF-bvH" firstAttribute="top" secondItem="xyG-zH-ZIV" secondAttribute="bottom" constant="37" id="osY-mo-HVn"/>
+                            <constraint firstItem="tlG-GF-bvH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t2J-Ax-g9a"/>
+                            <constraint firstItem="0S8-B4-UTS" firstAttribute="top" secondItem="1v6-Jh-Ya9" secondAttribute="bottom" constant="8" id="uNE-mI-z1N"/>
+                            <constraint firstItem="h4l-Kw-YPg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xMp-aK-LkT"/>
+                            <constraint firstItem="xyG-zH-ZIV" firstAttribute="top" secondItem="0S8-B4-UTS" secondAttribute="bottom" constant="218" id="yrd-fI-Uiz"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="bottomLabel" destination="0S8-B4-UTS" id="27K-eQ-66I"/>
